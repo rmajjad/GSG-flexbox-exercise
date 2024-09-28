@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.taskbar{
+    background-color: rgb(209, 207, 207);
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons, #section2-icon{
+    color: rgb(114, 114, 114);
+    
+}
+
+.label{
+    background-color: #fff;
+    height: 3vh;
+    width: 80%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    
+}
+
+.circles{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+}
+
+.circles #c1, .circles #c2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(114, 114, 114);
+    
+}
+
+.circles #c3{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+nav{
+    height: 10vh;
+    background-color: rgb(114, 114, 114) ;
+}
+
+
+
+.large{
+    margin: 2% 0 0 5%;
+    display: flex;
+    width: 60%;
+}
+
+.large .b-rec{
+    width: 10%;
+    height: 3vh;
+    margin-right: 0.3%;    
+}
+
+.large #b-rec1{
+    background-color: rgb(114, 114, 114);
+}
+
+.large #b-rec2 ,.large #b-rec3 {
+    background-color: rgb(184, 181, 181);
+}
+/* .small-rectangular {
+    display: flex;
+}
+.small-rectangular .s-rec{
+    width: 3%;
+    height: 5vh;
+    background-color: rgb(184, 181, 181);
+} */
+
+/* .sidebar{
+    margin-left: 5% ;
+    width: 60%;
+    height: 40vh;
+    background-color: rgb(114, 114, 114);
+} */
+
+
+.main-content {
+    display: flex;
+    gap: 5%;
+    /* margin-bottom: 10px; */
+    margin: 0 5%;
+}
+
+.large-content {
+    flex: 3;
+    height: 300px;
+    background-color: #777;
+}
+
+.sidebar {
+    flex: 1;
+    height: 300px;
+    background-color: #999;
+}
+
+.grid-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 30%;
+}
+
+.grid-item {
+    flex: 1 1 calc(20% - 10px);
+    height: 100px;
+    background-color: #bbb;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.article {
+    height: 100px;
+    background-color: #ccc;
+}
